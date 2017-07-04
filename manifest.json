@@ -1,0 +1,11 @@
+{
+    "name":"Moodle Acessível",
+    "version":"0.1",
+    "description":"Extensão que coloca atalhos de acessibilidade no Moodle IPÊ da Universidade Federal de Goiás",
+    "content_scripts": [
+        {
+            "matches": ["http://www.google.co.in/*","https://www.google.co.in/*"],
+            "js": ["script.js"]
+        }
+    ]
+}
